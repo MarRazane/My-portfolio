@@ -418,11 +418,13 @@ function PortfolioSection() {
 
       <div className="portfolio-grid">
         <PortfolioCard
-          img="/traffic-thumb.png"
+          img="public/dashboard.png"
           title="Real-Time Traffic Congestion Prediction"
           meta="Streaming . API"
-          desc="-"
-          date="In progress"
+          desc="A traffic monitoring system that pulls live road data from the TomTom API, 
+                detects congestion and incidents in real time, and presents 
+                the results through a web dashboard built with Flask and Python."
+          date="2026"
           github="https://github.com/MarRazane/realtime-traffic-detection"  
         />
 
