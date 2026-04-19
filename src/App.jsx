@@ -437,6 +437,14 @@ function PortfolioSection() {
           date="2026"
           github="https://github.com/MarRazane/MNIST-AIR"   
         />
+        <PortfolioCard
+          img="public/Bookmind.png"
+          title="BookMind – AI-Powered Book Discovery"
+          meta="Claude AI · Open Library · ChatBot"
+          desc="A full-stack web application that combines real book data with conversational AI to help users discover their next great read. The chatbot asks about your genre preferences, mood, age, and reading habits, then returns personalized book recommendations rendered as visual cards. Users can search and browse over 20 million books, view detailed book pages with author info and similar titles, and manage a personal reading list across three shelves."
+          date="2026"
+          github="https://github.com/MarRazane/BookMind"   
+        />
 
       </div>
     </section>
