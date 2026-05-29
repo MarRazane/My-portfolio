@@ -14,7 +14,7 @@ function App() {
           <div className="avatar-frame">
             <div className="avatar-inner">
               
-              <img src="\razane.jpeg" alt="Razan Marref" />
+              <img src="public/razane.jpeg" alt="Razan Marref" />
             </div>
             <div className="badge-availability">Available for hire</div>
           </div>
@@ -518,7 +518,7 @@ function ArticlesSection() {
 
       <div className="blog-grid">
         <BlogCard
-          img="/embeddings-thumb.png"
+          img="public/embeddings-thumb.png"
           title="Understanding Text Embeddings: Concepts"
           meta="Apr 19, 2024 · Machine Learning"
           desc="Discover how text embeddings turn language into numbers, enabling machines
@@ -526,7 +526,7 @@ function ArticlesSection() {
           link="https://medium.com/@razane-marref07/understanding-text-embeddings-concepts-7503ec12b060"
         />
         <BlogCard
-          img="/transformers-thumb.png"
+          img="public/transformers-thumb.png"
           title="Understanding the Transformers"
           meta="May 16, 2024 · Deep Learning"
           desc="A clear explanation of how Transformer architectures work: self-attention,
@@ -534,7 +534,7 @@ function ArticlesSection() {
           link="https://medium.com/@razane-marref07/the-transformers-d4bc8d0fbc27"
         />
         <BlogCard
-          img="/tf-cert-thumb.png"
+          img="public/tf-cert-thumb.png"
           title="How did I pass the TensorFlow Developer Certificate exam?"
           meta="Feb 28, 2022 · Certification Journey"
           desc="My preparation plan, learning resources and tips that helped me pass the
