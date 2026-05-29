@@ -14,7 +14,7 @@ function App() {
           <div className="avatar-frame">
             <div className="avatar-inner">
               
-              <img src="public/razane.jpeg" alt="Razan Marref" />
+              <img src="/razane.jpeg" alt="Razan Marref" />
             </div>
             <div className="badge-availability">Available for hire</div>
           </div>
