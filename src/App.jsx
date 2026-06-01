@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./index.css";
 
 const TABS = ["about", "resume", "portfolio", "articles", "contact"];
-
+const BASE = import.meta.env.BASE_URL;
 function App() {
   const [activeTab, setActiveTab] = useState("about");
 
@@ -518,7 +518,7 @@ function ArticlesSection() {
 
       <div className="blog-grid">
         <BlogCard
-          img="public/embeddings-thumb.png"
+          img src={`${import.meta.env.BASE_URL}embeddings-thumb.png`} 
           title="Understanding Text Embeddings: Concepts"
           meta="Apr 19, 2024 · Machine Learning"
           desc="Discover how text embeddings turn language into numbers, enabling machines
@@ -526,7 +526,7 @@ function ArticlesSection() {
           link="https://medium.com/@razane-marref07/understanding-text-embeddings-concepts-7503ec12b060"
         />
         <BlogCard
-          img="public/transformers-thumb.png"
+          img src={`${import.meta.env.BASE_URL}transformers-thumb.png`}
           title="Understanding the Transformers"
           meta="May 16, 2024 · Deep Learning"
           desc="A clear explanation of how Transformer architectures work: self-attention,
@@ -534,7 +534,7 @@ function ArticlesSection() {
           link="https://medium.com/@razane-marref07/the-transformers-d4bc8d0fbc27"
         />
         <BlogCard
-          img="public/tf-cert-thumb.png"
+          img src={`${import.meta.env.BASE_URL}tf-cert-thumb.png`}
           title="How did I pass the TensorFlow Developer Certificate exam?"
           meta="Feb 28, 2022 · Certification Journey"
           desc="My preparation plan, learning resources and tips that helped me pass the
