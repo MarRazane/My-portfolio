@@ -418,7 +418,7 @@ function PortfolioSection() {
 
       <div className="portfolio-grid">
         <PortfolioCard
-          img="public/dashboard.png"
+          img src={`${import.meta.env.BASE_URL}dashboard.png`} 
           title="Real-Time Traffic Congestion Prediction"
           meta="Streaming . API"
           desc="A traffic monitoring system that pulls live road data from the TomTom API, 
@@ -429,7 +429,7 @@ function PortfolioSection() {
         />
 
         <PortfolioCard
-          img="public/air-mnist-thumb.png"
+          img src={`${import.meta.env.BASE_URL}air-mnist-thumb.png`} 
           title="Air MNIST – Touchless Gesture-Based Digit Recognition"
           meta="Computer Vision · Hand Tracking · Machine Learning"
           desc="Draw digits in the air using hand gestures. Real-time hand tracking with MediaPipe 
@@ -438,7 +438,7 @@ function PortfolioSection() {
           github="https://github.com/MarRazane/MNIST-AIR"   
         />
         <PortfolioCard
-          img="public/Bookmind.png"
+          img src={`${import.meta.env.BASE_URL}Bookmind.png`}
           title="BookMind – AI-Powered Book Discovery"
           meta="Claude AI · Open Library · ChatBot"
           desc="A full-stack web application that combines real book data with conversational AI to help users discover their next great read. The chatbot asks about your genre preferences, mood, age, and reading habits, then returns personalized book recommendations rendered as visual cards. Users can search and browse over 20 million books, view detailed book pages with author info and similar titles, and manage a personal reading list across three shelves."
