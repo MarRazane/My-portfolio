@@ -14,7 +14,7 @@ function App() {
           <div className="avatar-frame">
             <div className="avatar-inner">
               
-              <img src="/razane.jpeg" alt="Razan Marref" />
+              <img src={`${import.meta.env.BASE_URL}razane.jpeg`} alt="Razan Marref" />
             </div>
             <div className="badge-availability">Available for hire</div>
           </div>
