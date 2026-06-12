@@ -47,7 +47,7 @@ function App() {
           </div>
         </div>
         <div className="sidebar-name">
-          <h1 className="name-animated">Razane Marref</h1>
+          <h1 className="name-animated"> Razane Marref </h1>
           <p className="typewriter-line">
             {subtitle}<span className="typewriter-cursor">|</span>
           </p>
