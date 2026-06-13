@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700;800&display=swap');
+
 :root {
   --bg: #050108;
   --panel-dark: #120820;
@@ -212,6 +214,8 @@ body::after {
 }
 
 .sidebar-name h1 {
+  font-family: "Space Grotesk", sans-serif;
+
   font-size: 1.7rem;
   font-weight: 600;
   letter-spacing: 0.03em;
