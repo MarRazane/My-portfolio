@@ -204,9 +204,9 @@ function ResumeSection() {
       </div>
       <h3 className="subheading">Certificates</h3>
       <div className="cert-list">
-        <CertItem name="TensorFlow Developer Certificate" org="TensorFlow – Google" meta="Issued: Feb 2022" file="public/certificates/tensorflow.pdf" onOpen={setActiveCert} />
-        <CertItem name="Google Data Analytics Professional Certificate" org="Google / Coursera" meta="Issued: Apr 2022" file="public/certificates/google-data-analytics.pdf" onOpen={setActiveCert} />
-        <CertItem name="AI for Medicine Specialization" org="Stanford – Coursera" meta="Issued: Mar 2023" file="public/certificates/ai-for-medicine.pdf" onOpen={setActiveCert} />
+        <CertItem name="TensorFlow Developer Certificate" org="TensorFlow – Google" meta="Issued: Feb 2022" file={`${import.meta.env.BASE_URL}certificates/tensorflow.pdf`} onOpen={setActiveCert} /> 
+        <CertItem name="Google Data Analytics Professional Certificate" org="Google / Coursera" meta="Issued: Apr 2022" file={`${import.meta.env.BASE_URL}certificates/google-data-analytics.pdf`} onOpen={setActiveCert} />
+        <CertItem name="AI for Medicine Specialization" org="Stanford – Coursera" meta="Issued: Mar 2023" file={`${import.meta.env.BASE_URL}certificates/ai-for-medicine.pdf`} onOpen={setActiveCert} />
       </div>
       {activeCert && <CertificateModal cert={activeCert} onClose={() => setActiveCert(null)} />}
     </section>
