@@ -285,6 +285,13 @@ function PortfolioSection() {
           title="BookMind – AI-Powered Book Discovery" meta="Claude AI · Open Library · ChatBot" date="2026"
           desc="A full-stack web application that combines real book data with conversational AI to help users discover their next great read. The chatbot asks about your genre preferences, mood, age, and reading habits, then returns personalized book recommendations rendered as visual cards."
           github="https://github.com/MarRazane/BookMind" />
+        <PortfolioCard
+          img={`${import.meta.env.BASE_URL}dash.png`}
+          title="Time-Series Health Monitoring System" meta="ICU patient· CNN · VAE . Transformer" date="2026"
+          desc="Deep learning system for real-time ECG anomaly detection and ICU patient 
+            deterioration prediction using CNN, Transformer, and VAE autoencoders 
+            trained on MIT-BIH Arrhythmia Database with FastAPI backend and Streamlit dashboard."
+          github="https://github.com/MarRazane/health-monitor" />  
       </div>
     </section>
   );
